@@ -1,0 +1,3 @@
+SELECT Year, COUNT(MovieId) FROM MOVIE
+GROUP BY Year
+ORDER BY year desc;

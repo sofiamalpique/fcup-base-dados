@@ -1,0 +1,7 @@
+SELECT StreamDate FROM STREAM;
+DESC STREAM;
+SELECT time, COUNT(StreamDate) AS 'contagem' FROM STREAM
+GROUP BY time;
+
+SELECT HOUR(StreamDate) AS 'horas', COUNT(*) FROM STREAM
+GROUP BY 1

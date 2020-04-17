@@ -1,0 +1,3 @@
+SELECT AVG(Duration)
+FROM MOVIE
+WHERE Year >= 2000;
